@@ -1,0 +1,8 @@
+# Flask
+Flask==0.12.2
+
+# Deployment
+gunicorn==19.7.1
+
+# PEP8
+pylint==1.8.1
