@@ -3,17 +3,17 @@
 
 from flask import Flask
 
-app = Flask(__name__)
+App = Flask(__name__)
 
-@app.route("/")
+@App.route("/")
 def root():
     """function opens main site"""
     return "Hello World"
 
-@app.route("/health")
+@App.route("/health")
 def health():
     """simple health check"""
     return "ok"
 
 if __name__ == "__main__":
-    app.run()
+    App.run()
