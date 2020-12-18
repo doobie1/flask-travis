@@ -11,4 +11,4 @@ install:
 
 # check code style
 script:
-    - pylint --output-format=text webapp.py
+    - pylint --output-format=text app.py
