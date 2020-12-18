@@ -6,3 +6,6 @@ gunicorn==19.7.1
 
 # PEP8
 pylint==1.8.1
+
+# Testing
+coverage==4.4.2
