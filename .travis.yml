@@ -9,4 +9,4 @@ install:
 
 # check code style
 script:
-    - pylint --output-format=text app.py
+    - pylint app.py
