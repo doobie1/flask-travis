@@ -1,19 +1,19 @@
 #!/usr/bin/python3
-"""Main app file"""
+"""Main APP file"""
 
 from flask import Flask
 
-App = Flask(__name__)
+APP = Flask(__name__)
 
-@App.route("/")
+@APP.route("/")
 def root():
     """function opens main site"""
     return "Hello World"
 
-@App.route("/health")
+@APP.route("/health")
 def health():
     """simple health check"""
     return "ok"
 
 if __name__ == "__main__":
-    App.run()
+    APP.run()
